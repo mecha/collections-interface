@@ -4,14 +4,14 @@ namespace Dhii\Collection\UnitTest;
 
 /**
  * Tests {@see Dhii\Collection\SearchableCollectionInterface}.
- * 
+ *
  * @since [*next-version*]
  */
 class SearchableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Creates a new instance of the test subject.
-     * 
+     *
      * @since [*next-version*]
      *
      * @return Dhii\Collection\SearchableCollectionInterface
@@ -25,7 +25,7 @@ class SearchableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
 
     /**
      * Tests whether a correct instance of a descendant can be created.
-     * 
+     *
      * @since [*next-version*]
      */
     public function testCanBeCreated()
