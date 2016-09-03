@@ -80,11 +80,11 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/php-cs-fixer-config.git",
-                "reference": "e2321779043c70e7d1060a94d67b569ea6b32891"
+                "reference": "8b6ad7eeb4eeb508207c5c8ae56a45681fdb1562"
             },
             "require": {
                 "friendsofphp/php-cs-fixer": ">=1.11 <1.12",
-                "php": ">=5.3"
+                "php": "^5.3 | ^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8"
@@ -110,7 +110,7 @@
                 }
             ],
             "description": "A default PHP CS Fixer config implementation",
-            "time": "2016-09-03 12:48:06"
+            "time": "2016-09-03 13:28:58"
         },
         {
             "name": "doctrine/instantiator",
