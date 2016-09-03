@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "05a7cea17077b95e214b7c6ff63df18b",
-    "content-hash": "c1268f3a4b65879fda62bae47c03e6d9",
+    "hash": "c6e8bb231f90cbd5b5300c5e65349060",
+    "content-hash": "cb09e2b81497bf0205f95655447d7ba9",
     "packages": [],
     "packages-dev": [
         {
@@ -80,7 +80,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/php-cs-fixer-config.git",
-                "reference": "8b6ad7eeb4eeb508207c5c8ae56a45681fdb1562"
+                "reference": "4f7837d4fdab13fe0cb473470b9347bebf587521"
             },
             "require": {
                 "friendsofphp/php-cs-fixer": ">=1.11 <1.12",
@@ -110,7 +110,7 @@
                 }
             ],
             "description": "A default PHP CS Fixer config implementation",
-            "time": "2016-09-03 13:28:58"
+            "time": "2016-09-03 13:55:18"
         },
         {
             "name": "doctrine/instantiator",
@@ -1875,7 +1875,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^5.3"
+        "php": "^5.3 | ^7.0"
     },
     "platform-dev": []
 }
