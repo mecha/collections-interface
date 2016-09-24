@@ -28,11 +28,5 @@
             "Dhii\\Collection\\UnitTest\\": "test/unit",
             "Dhii\\Collection\\FuncTest\\": "test/functional"
         }
-    },
-    "repositories": [
-        {
-            "url": "https://github.com/Dhii/php-cs-fixer-config.git",
-            "type": "git"
-        }
-    ]
+    }
 }
