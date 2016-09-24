@@ -3,7 +3,6 @@
 namespace Dhii\Collection;
 
 use OuterIterator;
-use AppendIterator;
 
 /**
  * Something that can act as an iterator which iterates sequentially over elemnts in other aggregators.
@@ -16,13 +15,13 @@ use AppendIterator;
 interface SequenceIteratorIteratorInterface extends OuterIterator
 {
     /**
-     * @see AppendIterator::getArrayIterator()
+     * @see \AppendIterator::getArrayIterator()
      * @since [*next-version*]
      */
     public function getArrayIterator();
 
     /**
-     * @see AppendIterator::getIteratorIndex()
+     * @see \AppendIterator::getIteratorIndex()
      * @since [*next-version*]
      */
     public function getIteratorIndex();
