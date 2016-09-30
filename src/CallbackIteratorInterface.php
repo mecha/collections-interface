@@ -8,9 +8,6 @@ use Iterator;
  * Something that can act as a callback iterator.
  *
  * A callback iterator is something that returns items processed by a callback.
- * The {@see current()} method MUST return the result of applying the callback
- * to the current item.
- * See {@see getCallback()} for defails about the callback.
  *
  * @since [*next-version*]
  */
