@@ -29,4 +29,12 @@ interface CallbackIteratorInterface extends Iterator
      * @return callable The callback of this iterator.
      */
     public function getCallback();
+
+    /**
+     * Return the current element after applying the callback to it.
+     *
+     * @see getCallback()
+     * @since [*next-version*]
+     */
+    public function current();
 }
