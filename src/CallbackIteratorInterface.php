@@ -8,9 +8,6 @@ use Iterator;
  * Something that can act as a callback iterator.
  *
  * A callback iterator is something that returns items processed by a callback.
- * The {@see current()} method MUST return the result of applying the callback
- * to the current item.
- * See {@see getCallback()} for defails about the callback.
  *
  * @since [*next-version*]
  */
@@ -29,4 +26,12 @@ interface CallbackIteratorInterface extends Iterator
      * @return callable The callback of this iterator.
      */
     public function getCallback();
+
+    /**
+     * Return the current element after applying the callback to it.
+     *
+     * @see getCallback()
+     * @since [*next-version*]
+     */
+    public function current();
 }
