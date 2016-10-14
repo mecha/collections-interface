@@ -18,5 +18,5 @@ interface KeyCheckCapableInteraface
      *
      * @return bool True if an item witht he specified key exists in this instance; false otherwise.
      */
-    public function hasItemKey($key);
+    public function hasKey($key);
 }
