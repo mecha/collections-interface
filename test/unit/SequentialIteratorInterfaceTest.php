@@ -3,11 +3,11 @@
 namespace Dhii\Collection\UnitTest;
 
 /**
- * Tests {@see Dhii\Collection\SequenceIteratorIteratorInterface}.
+ * Tests {@see Dhii\Collection\SequentialIteratorInterface}.
  *
  * @since [*next-version*]
  */
-class SequenceIteratorIteratorInterfaceTest extends \PHPUnit_Framework_TestCase
+class SequentialIteratorInterfaceTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Creates a new instance of the test subject.
@@ -18,7 +18,7 @@ class SequenceIteratorIteratorInterfaceTest extends \PHPUnit_Framework_TestCase
      */
     public function createInstance()
     {
-        $mock = $this->getMock('Dhii\\Collection\\SequenceIteratorIteratorInterface');
+        $mock = $this->getMock('Dhii\\Collection\\SequentialIteratorInterface');
 
         return $mock;
     }
@@ -32,7 +32,7 @@ class SequenceIteratorIteratorInterfaceTest extends \PHPUnit_Framework_TestCase
     {
         $subject = $this->createInstance();
 
-        $this->assertInstanceOf('Dhii\\Collection\\SequenceIteratorIteratorInterface', $subject, 'Could not create an implementing instance');
+        $this->assertInstanceOf('Dhii\\Collection\\SequentialIteratorInterface', $subject, 'Could not create an implementing instance');
         $this->assertInstanceOf('OuterIterator', $subject, 'Subject does not implement required interface');
     }
 }
