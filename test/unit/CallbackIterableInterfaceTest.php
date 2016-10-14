@@ -18,7 +18,7 @@ class CallbackIterableInterfaceTest extends \PHPUnit_Framework_TestCase
      */
     public function createInstance()
     {
-        $mock = $this->getMock('Dhii\Collection\CallbackIterableInterface');
+        $mock = $this->getMock('Dhii\\Collection\\CallbackIterableInterface');
 
         return $mock;
     }
@@ -32,6 +32,6 @@ class CallbackIterableInterfaceTest extends \PHPUnit_Framework_TestCase
     {
         $subject = $this->createInstance();
 
-        $this->assertInstanceOf('Dhii\Collection\CallbackIterableInterface', $subject, 'Could not create an implementing instance');
+        $this->assertInstanceOf('Dhii\\Collection\\CallbackIterableInterface', $subject, 'Could not create an implementing instance');
     }
 }

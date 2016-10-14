@@ -18,7 +18,7 @@ class SearchableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
      */
     public function createInstance()
     {
-        $mock = $this->getMock('Dhii\Collection\SearchableCollectionInterface');
+        $mock = $this->getMock('Dhii\\Collection\\SearchableCollectionInterface');
 
         return $mock;
     }
@@ -32,6 +32,6 @@ class SearchableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
     {
         $subject = $this->createInstance();
 
-        $this->assertInstanceOf('Dhii\Collection\SearchableCollectionInterface', $subject, 'Could not create an implementing instance');
+        $this->assertInstanceOf('Dhii\\Collection\\SearchableCollectionInterface', $subject, 'Could not create an implementing instance');
     }
 }
