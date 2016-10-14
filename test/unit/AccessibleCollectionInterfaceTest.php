@@ -33,5 +33,7 @@ class AccessibleCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
         $subject = $this->createInstance();
 
         $this->assertInstanceOf('Dhii\\Collection\\AccessibleCollectionInterface', $subject, 'Could not create an implementing instance');
+        $this->assertInstanceOf('Dhii\\Collection\\ItemRetrievalCapableInterface', $subject, 'Subject does not implement required interface');
+        $this->assertInstanceOf('Dhii\\Collection\\ItemCheckCapableInterface', $subject, 'Subject does not implement required interface');
     }
 }
