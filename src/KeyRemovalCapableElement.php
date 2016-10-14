@@ -18,5 +18,5 @@ interface KeyRemovalCapableElement
      *
      * @return bool True if item has been removed; false otherwise.
      */
-    public function removeItemByKey($key);
+    public function removeKey($key);
 }
