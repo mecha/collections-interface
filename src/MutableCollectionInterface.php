@@ -8,7 +8,7 @@ namespace Dhii\Collection;
  * @since [*next-version*]
  */
 interface MutableCollectionInterface extends
-    WriteableCollectionInterface,
+    WritableCollectionInterface,
     RemovalCapableCollectionInterface,
     ClearableCollectionInterface
 {
