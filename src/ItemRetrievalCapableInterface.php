@@ -3,7 +3,7 @@
 namespace Dhii\Collection;
 
 /**
- * Something that can check whether it has a key.
+ * Something that can have a single item retrieved from it.
  *
  * @since [*next-version*]
  */
