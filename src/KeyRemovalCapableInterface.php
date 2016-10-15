@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface KeyRemovalCapableElement
+interface KeyRemovalCapableInterface
 {
     /**
      * Removes an item with the specified key.
