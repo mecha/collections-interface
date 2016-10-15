@@ -3,11 +3,11 @@
 namespace Dhii\Collection;
 
 /**
- * Something that can have items added.
+ * A collection, to which items can be added.
  *
  * @since [*next-version*]
  */
-interface ItemAdditionCapableInterface
+interface WriteableCollectionInterface
 {
     /**
      * Adds an item.
@@ -18,7 +18,7 @@ interface ItemAdditionCapableInterface
      *
      * @return bool True if item has been added; false otherwise.
      */
-    public function addItem($item);
+    public function add($item);
 
     /**
      * Adds multiple items.
@@ -29,5 +29,5 @@ interface ItemAdditionCapableInterface
      *
      * @return bool True if items have been added; false otherwise.
      */
-    public function addItems($items);
+    public function addMany($items);
 }

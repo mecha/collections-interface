@@ -3,21 +3,20 @@
 namespace Dhii\Collection;
 
 /**
- * Something that can act like a collection.
+ * Something that can represent an item collection.
  *
  * @since [*next-version*]
  */
 interface CollectionInterface
 {
     /**
-     * Retrieve the items of the collection.
-     *
-     * This method may return an array. However, this is not a reliable way to convert a collection
-     * to an array. For that purpose, use {@see iterator_to_array()}.
+     * Checks whether this instance contains the given item.
      *
      * @since [*next-version*]
      *
-     * @return mixed[]|\Traversable The list of items, by original key.
+     * @param mixed $item The item to check for.
+     *
+     * @return bool True if the given item exists in this instance; false otherwise.
      */
-    public function getItems();
+    public function contains($item);
 }

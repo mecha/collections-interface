@@ -3,12 +3,12 @@
 namespace Dhii\Collection;
 
 /**
- * Something, the individual items of which can be accessed.
+ * A collection, the items of which can be accessed.
  *
  * @since [*next-version*]
  */
 interface AccessibleCollectionInterface extends
-    ItemCheckCapableInterface,
-    ItemRetrievalCapableInterface
+    ReadableCollectionInterface,
+    BulkRetrievableCollectionInterface
 {
 }

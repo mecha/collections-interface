@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface KeyRemovalCapableInterface
+interface UnsetCapableCollectionInterface extends CollectionInterface
 {
     /**
      * Removes an item with the specified key.
@@ -18,5 +18,5 @@ interface KeyRemovalCapableInterface
      *
      * @return bool True if item has been removed; false otherwise.
      */
-    public function removeKey($key);
+    public function uns($key);
 }

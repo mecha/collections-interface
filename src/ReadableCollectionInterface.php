@@ -3,11 +3,11 @@
 namespace Dhii\Collection;
 
 /**
- * Something that can have a single item retrieved from it.
+ * A collection, the individual items of which can be accessed.
  *
  * @since [*next-version*]
  */
-interface ItemRetrievalCapableInterface
+interface ReadableCollectionInterface extends CollectionInterface
 {
     /**
      * Retrieves an item with the specified key.
@@ -18,5 +18,5 @@ interface ItemRetrievalCapableInterface
      *
      * @return mixed The item, if key is found; null otherwise.
      */
-    public function getItem($key);
+    public function get($key);
 }

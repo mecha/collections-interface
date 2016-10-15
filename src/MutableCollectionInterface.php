@@ -8,7 +8,8 @@ namespace Dhii\Collection;
  * @since [*next-version*]
  */
 interface MutableCollectionInterface extends
-    ItemAdditionCapableInterface,
-    ItemRemovalCapableInterface
+    WriteableCollectionInterface,
+    RemovalCapableCollectionInterface,
+    ClearableCollectionInterface
 {
 }

@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface KeyCheckCapableInteraface
+interface CheckCapableCollectionInteraface extends CollectionInterface
 {
     /**
      * Checks whether this instance contains an item with the given key.
@@ -18,5 +18,5 @@ interface KeyCheckCapableInteraface
      *
      * @return bool True if an item witht he specified key exists in this instance; false otherwise.
      */
-    public function hasKey($key);
+    public function has($key);
 }
