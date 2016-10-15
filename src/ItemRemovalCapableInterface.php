@@ -18,5 +18,5 @@ interface ItemRemovalCapableInterface
      *
      * @return bool True if item has been removed; false otherwise.
      */
-    public function removeitem($item);
+    public function removeItem($item);
 }
