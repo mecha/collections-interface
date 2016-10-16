@@ -14,7 +14,7 @@ class UnsetCapableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
      *
      * @since [*next-version*]
      *
-     * @return Dhii\Collection\KeyRemovalCapableCollectionInterface
+     * @return Dhii\Collection\UnsetCapableCollectionInterface
      */
     public function createInstance()
     {
