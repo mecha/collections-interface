@@ -3,11 +3,11 @@
 namespace Dhii\Collection\UnitTest;
 
 /**
- * Tests {@see Dhii\Collection\ValidateCapableCollection}.
+ * Tests {@see Dhii\Collection\ValidateCapableCollectionInterface}.
  *
  * @since [*next-version*]
  */
-class ValidateCapableCollectionTest extends \PHPUnit_Framework_TestCase
+class ValidateCapableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Creates a new instance of the test subject.
@@ -18,7 +18,7 @@ class ValidateCapableCollectionTest extends \PHPUnit_Framework_TestCase
      */
     public function createInstance()
     {
-        $mock = $this->getMock('Dhii\\Collection\\ValidateCapableCollection');
+        $mock = $this->getMock('Dhii\\Collection\\ValidateCapableCollectionInterface');
 
         return $mock;
     }
@@ -32,7 +32,7 @@ class ValidateCapableCollectionTest extends \PHPUnit_Framework_TestCase
     {
         $subject = $this->createInstance();
 
-        $this->assertInstanceOf('Dhii\\Collection\\ValidateCapableCollection', $subject, 'Could not create an implementing instance');
+        $this->assertInstanceOf('Dhii\\Collection\\ValidateCapableCollectionInterface', $subject, 'Could not create an implementing instance');
         $this->assertInstanceOf('Dhii\\Collection\\CollectionInterface', $subject, 'Subject is not a valid collection');
     }
 }

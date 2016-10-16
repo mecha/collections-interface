@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface ValidateCapableCollection extends CollectionInterface
+interface ValidateCapableCollectionInterface extends CollectionInterface
 {
     /**
      * Determines whether the given item is a valid member of this collection.
