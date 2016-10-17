@@ -9,6 +9,6 @@ namespace Dhii\Collection;
  */
 interface TraversableCollectionInterface extends
     CollectionInterface,
-    \Traversable
+    \Iterator
 {
 }
