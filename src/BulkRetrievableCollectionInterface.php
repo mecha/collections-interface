@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface BulkRetrievableCollectionInterface extends CollectionInterface
+interface BulkRetrievableCollectionInterface extends BaseCollectionInterface
 {
     /**
      * Retrieve the items of the collection.

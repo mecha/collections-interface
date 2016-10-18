@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface CollectionInterface
+interface BaseCollectionInterface
 {
     /**
      * Checks whether this instance contains the given item.

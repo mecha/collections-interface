@@ -33,6 +33,6 @@ class UnsetCapableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
         $subject = $this->createInstance();
 
         $this->assertInstanceOf('Dhii\\Collection\\UnsetCapableCollectionInterface', $subject, 'Could not create an implementing instance');
-        $this->assertInstanceOf('Dhii\\Collection\\CollectionInterface', $subject, 'Subject is not a valid collection');
+        $this->assertInstanceOf('Dhii\\Collection\\BaseCollectionInterface', $subject, 'Subject is not a valid collection');
     }
 }

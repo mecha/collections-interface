@@ -33,6 +33,6 @@ class KeyValidateCapableCollectionInterfaceTest extends \PHPUnit_Framework_TestC
         $subject = $this->createInstance();
 
         $this->assertInstanceOf('Dhii\\Collection\\KeyValidateCapableCollectionInterface', $subject, 'Could not create an implementing instance');
-        $this->assertInstanceOf('Dhii\\Collection\\CollectionInterface', $subject, 'Subject is not a valid collection');
+        $this->assertInstanceOf('Dhii\\Collection\\BaseCollectionInterface', $subject, 'Subject is not a valid collection');
     }
 }

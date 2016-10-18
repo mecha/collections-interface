@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface ClearableCollectionInterface extends CollectionInterface
+interface ClearableCollectionInterface extends BaseCollectionInterface
 {
     /**
      * Clears all items of this collection.

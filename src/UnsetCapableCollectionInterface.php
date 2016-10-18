@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface UnsetCapableCollectionInterface extends CollectionInterface
+interface UnsetCapableCollectionInterface extends BaseCollectionInterface
 {
     /**
      * Removes an item with the specified key.

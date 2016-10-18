@@ -3,22 +3,22 @@
 namespace Dhii\Collection\UnitTest;
 
 /**
- * Tests {@see Dhii\Collection\CollectionInterface}.
+ * Tests {@see Dhii\Collection\BaseCollectionInterface}.
  *
  * @since [*next-version*]
  */
-class CollectionInterfaceTest extends \PHPUnit_Framework_TestCase
+class BsaeCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Creates a new instance of the test subject.
      *
      * @since [*next-version*]
      *
-     * @return Dhii\Collection\CollectionInterface
+     * @return Dhii\Collection\BaseCollectionInterface
      */
     public function createInstance()
     {
-        $mock = $this->getMock('Dhii\\Collection\\CollectionInterface');
+        $mock = $this->getMock('Dhii\\Collection\\BaseCollectionInterface');
 
         return $mock;
     }
@@ -32,6 +32,6 @@ class CollectionInterfaceTest extends \PHPUnit_Framework_TestCase
     {
         $subject = $this->createInstance();
 
-        $this->assertInstanceOf('Dhii\\Collection\\CollectionInterface', $subject, 'Could not create an implementing instance');
+        $this->assertInstanceOf('Dhii\\Collection\\BaseCollectionInterface', $subject, 'Could not create an implementing instance');
     }
 }

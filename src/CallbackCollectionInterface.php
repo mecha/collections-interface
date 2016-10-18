@@ -8,7 +8,7 @@ namespace Dhii\Collection;
  * @since [*next-version*]
  */
 interface CallbackCollectionInterface extends
-    CollectionInterface,
+    BaseCollectionInterface,
     CallbackIterableInterface
 {
 }

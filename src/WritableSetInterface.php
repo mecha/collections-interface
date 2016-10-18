@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface WritableSetInterface extends CollectionInterface
+interface WritableSetInterface extends BaseCollectionInterface
 {
     /**
      * Adds an item to the set.

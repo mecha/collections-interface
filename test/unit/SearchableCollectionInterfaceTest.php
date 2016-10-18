@@ -33,7 +33,7 @@ class SearchableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
         $subject = $this->createInstance();
 
         $this->assertInstanceOf('Dhii\\Collection\\SearchableCollectionInterface', $subject, 'Could not create an implementing instance');
-        $this->assertInstanceOf('Dhii\\Collection\\CollectionInterface', $subject, 'Could not create an implementing instance');
+        $this->assertInstanceOf('Dhii\\Collection\\BaseCollectionInterface', $subject, 'Could not create an implementing instance');
         $this->assertInstanceOf('Dhii\\Collection\\SearchableInterface', $subject, 'Could not create an implementing instance');
     }
 }

@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface ReadableCollectionInterface extends CollectionInterface
+interface ReadableCollectionInterface extends BaseCollectionInterface
 {
     /**
      * Retrieves an item with the specified key.

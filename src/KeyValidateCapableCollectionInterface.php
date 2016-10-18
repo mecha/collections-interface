@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface KeyValidateCapableCollectionInterface extends CollectionInterface
+interface KeyValidateCapableCollectionInterface extends BaseCollectionInterface
 {
     /**
      * Determines whether the specified key is a valid key for this collection.

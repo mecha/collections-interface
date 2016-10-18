@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface CheckCapableCollectionInterface extends CollectionInterface
+interface CheckCapableCollectionInterface extends BaseCollectionInterface
 {
     /**
      * Checks whether this instance contains an item with the given key.
