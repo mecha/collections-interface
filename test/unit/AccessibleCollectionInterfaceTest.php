@@ -3,7 +3,7 @@
 namespace Dhii\Collection\UnitTest;
 
 /**
- * Tests {@see Dhii\Collection\AccessibleCollectionInterfaceTest}.
+ * Tests {@see Dhii\Collection\AccessibleCollectionInterface}.
  *
  * @since [*next-version*]
  */
@@ -14,7 +14,7 @@ class AccessibleCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
      *
      * @since [*next-version*]
      *
-     * @return Dhii\Collection\AccessibleCollectionInterfaceTest
+     * @return Dhii\Collection\AccessibleCollectionInterface
      */
     public function createInstance()
     {
@@ -33,8 +33,6 @@ class AccessibleCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
         $subject = $this->createInstance();
 
         $this->assertInstanceOf('Dhii\\Collection\\AccessibleCollectionInterface', $subject, 'Could not create an implementing instance');
-        $this->assertInstanceOf('Dhii\\Collection\\BaseCollectionInterface', $subject, 'Subject is not a valid collecton');
-        $this->assertInstanceOf('Dhii\\Collection\\ReadableCollectionInterface', $subject, 'Subject does not implement required interface');
-        $this->assertInstanceOf('Dhii\\Collection\\GrossCollectionInterface', $subject, 'Subject does not implement required interface');
+        $this->assertInstanceOf('Dhii\\Collection\\BaseCollectionInterface', $subject, 'Subject is not a valid collection');
     }
 }
