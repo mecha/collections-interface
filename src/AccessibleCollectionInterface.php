@@ -9,6 +9,6 @@ namespace Dhii\Collection;
  */
 interface AccessibleCollectionInterface extends
     ReadableCollectionInterface,
-    BulkRetrievableCollectionInterface
+    GrossCollectionInterface
 {
 }

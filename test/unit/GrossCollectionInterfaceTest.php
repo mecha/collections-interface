@@ -3,7 +3,7 @@
 namespace Dhii\Collection\UnitTest;
 
 /**
- * Tests {@see Dhii\Collection\BulkRetrievableCollectionInterface}.
+ * Tests {@see Dhii\Collection\GrossCollectionInterface}.
  *
  * @since [*next-version*]
  */
@@ -14,11 +14,11 @@ class BulkRetrievableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
      *
      * @since [*next-version*]
      *
-     * @return Dhii\Collection\BulkRetrievableCollectionInterface
+     * @return Dhii\Collection\GrossCollectionInterface
      */
     public function createInstance()
     {
-        $mock = $this->getMock('Dhii\\Collection\\BulkRetrievableCollectionInterface');
+        $mock = $this->getMock('Dhii\\Collection\\GrossCollectionInterface');
 
         return $mock;
     }
@@ -32,7 +32,7 @@ class BulkRetrievableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
     {
         $subject = $this->createInstance();
 
-        $this->assertInstanceOf('Dhii\\Collection\\BulkRetrievableCollectionInterface', $subject, 'Could not create an implementing instance');
+        $this->assertInstanceOf('Dhii\\Collection\\GrossCollectionInterface', $subject, 'Could not create an implementing instance');
         $this->assertInstanceOf('Dhii\\Collection\\BaseCollectionInterface', $subject, 'Subject is not a valid collection');
     }
 }

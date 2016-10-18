@@ -10,7 +10,7 @@ namespace Dhii\Collection;
  * @since [*next-version*]
  */
 interface ReadableMapInterface extends
-    BulkRetrievableCollectionInterface,
+    GrossCollectionInterface,
     ReadableCollectionInterface
 {
 }
