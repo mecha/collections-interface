@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface RemovalCapableCollectionInterface extends BaseCollectionInterface
+interface ReducibleCollectionInterface extends BaseCollectionInterface
 {
     /**
      * Removes an item.
