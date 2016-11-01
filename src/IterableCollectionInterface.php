@@ -7,7 +7,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface TraversableCollectionInterface extends
+interface IterableCollectionInterface extends
     BaseCollectionInterface,
     \Iterator
 {
