@@ -9,7 +9,7 @@ namespace Dhii\Collection;
  */
 interface WritableCollectionInterface extends
     ExtensibleCollectionInterface,
-    ReducibleCollectionInterface
+    ReducibleCollectionInterface,
+    MutableCollectionInterface
 {
-
 }
