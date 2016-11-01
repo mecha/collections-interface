@@ -3,13 +3,20 @@
 namespace Dhii\Collection;
 
 /**
- * Something that can act as a collection which can have its item set altered.
+ * A collection that allows the bulk of the items to be set.
  *
  * @since [*next-version*]
  */
-interface MutableCollectionInterface extends
-    WritableCollectionInterface,
-    RemovalCapableCollectionInterface,
-    ClearableCollectionInterface
+interface MutableCollectionInterface extends BaseCollectionInterface
 {
+    /**
+     * Set the items in bulk.
+     *
+     * The current item set is completely replaced with the given one.
+     *
+     * @since [*next-version*]
+     *
+     * @param array|\Traversable $items The items to set for this instance.
+     */
+    public function setItems($items);
 }
