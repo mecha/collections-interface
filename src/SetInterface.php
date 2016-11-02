@@ -10,6 +10,8 @@ namespace Dhii\Collection;
 interface SetInterface extends
     WritableSetInterface,
     ReadableSetInterface,
-    RemovalCapableCollectionInterface
+    TraversableSetInterface,
+    AbatableSetInterface,
+    GrowableSetInterface
 {
 }

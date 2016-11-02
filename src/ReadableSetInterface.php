@@ -7,6 +7,8 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface ReadableSetInterface extends GrossCollectionInterface
+interface ReadableSetInterface extends
+    GrossSetInterface,
+    CountableSetInterface
 {
 }
