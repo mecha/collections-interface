@@ -11,5 +11,4 @@ interface TraversableCollectionInterface extends
     ReadableCollectionInterface,
     IterableCollectionInterface
 {
-
 }
