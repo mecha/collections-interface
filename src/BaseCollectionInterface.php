@@ -23,6 +23,8 @@ interface BaseCollectionInterface
     /**
      * Determines whether the given item is a valid member of this collection.
      *
+     * This is compatible with {@link https://github.com/Dhii/validator-interface/blob/master/src/ValidatorInterface.php ValidatorInterface}.
+     *
      * @since [*next-version*]
      *
      * @param mixed $item The item to validate.
