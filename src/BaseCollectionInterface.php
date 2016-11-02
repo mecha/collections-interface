@@ -19,4 +19,13 @@ interface BaseCollectionInterface
      * @return bool True if the given item exists in this instance; false otherwise.
      */
     public function contains($item);
+
+    /**
+     * Determines whether the given item is a valid member of this collection.
+     *
+     * @since [*next-version*]
+     *
+     * @param mixed $item The item to validate.
+     */
+    public function validate($item);
 }
