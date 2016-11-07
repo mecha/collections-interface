@@ -8,7 +8,7 @@ namespace Dhii\Collection;
  *
  * @since [*next-version*]
  */
-interface OpenCollectionInterface extends 
+interface OpenCollectionInterface extends
     AccessibleCollectionInterface,
     ReadableCollectionInterface
 {
