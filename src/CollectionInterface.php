@@ -5,7 +5,7 @@ namespace Dhii\Collection;
 /**
  * Something that can act like a collection.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface CollectionInterface
 {
@@ -15,7 +15,7 @@ interface CollectionInterface
      * This method may return an array. However, this is not a reliable way to convert a collection
      * to an array. For that purpose, use {@see iterator_to_array()}.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return mixed[]|\Traversable The list of items, by original key.
      */

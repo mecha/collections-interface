@@ -5,7 +5,7 @@ namespace Dhii\Collection;
 /**
  * Something that can act as a collection which can have its item set changed.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface MutableCollectionInterface
 {
@@ -14,7 +14,7 @@ interface MutableCollectionInterface
      *
      * @param mixed $item An item to add to the collection.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return bool True if item has been added; false otherwise.
      */
@@ -25,7 +25,7 @@ interface MutableCollectionInterface
      *
      * @param mixed[]|\Traversable $items A list of items to add.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return bool True if items have been added; false otherwise.
      */
@@ -36,7 +36,7 @@ interface MutableCollectionInterface
      *
      * @param mixed $item The item to remove from the collection.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return bool True if item has been removed; false otherwise.
      */
@@ -47,7 +47,7 @@ interface MutableCollectionInterface
      *
      * @param string|int $key The key of an item to remove.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return bool True if item has been removed; false otherwise.
      */

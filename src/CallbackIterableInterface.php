@@ -7,14 +7,14 @@ use UnexpectedValueException;
 /**
  * Something that can iterate over its items using a callback.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface CallbackIterableInterface
 {
     /**
      * Do something with each element of the collection.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param callable $callback The callback to apply to each element of the collection.
      *                           See {@see CallbackIteratorInterface::getCallback()} for callback specification.
