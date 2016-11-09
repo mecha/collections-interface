@@ -17,7 +17,8 @@ interface SearchableCollectionInterface
      *                                  The third argument is a boolean value passed by reference which, if set to false, will prevent any further evaluation, and cause the search to stop.
      *                                  The first argument is the key of the item being evaluated.
      * @param array|\Traversable $items
-     * @param mixed[]|\Traversable A list of items which represents the search result.
+     *
+     * @return mixed[]|\Traversable A list of items which represents the search result.
      */
     public function search($eval);
 }

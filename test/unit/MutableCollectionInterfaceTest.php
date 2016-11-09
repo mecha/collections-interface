@@ -18,7 +18,7 @@ class MutableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
      */
     public function createInstance()
     {
-        $mock = $this->getMock('Dhii\Collection\MutableCollectionInterface');
+        $mock = $this->getMock('Dhii\\Collection\\MutableCollectionInterface');
 
         return $mock;
     }
@@ -32,6 +32,6 @@ class MutableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
     {
         $subject = $this->createInstance();
 
-        $this->assertInstanceOf('Dhii\Collection\MutableCollectionInterface', $subject, 'Could not create an implementing instance');
+        $this->assertInstanceOf('Dhii\\Collection\\MutableCollectionInterface', $subject, 'Could not create an implementing instance');
     }
 }
