@@ -5,14 +5,14 @@ namespace Dhii\Collection;
 /**
  * Something that can act as a collection, the individual items of which can be accessed.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface AccessibleCollectionInterface
 {
     /**
      * Checks whether this collection contains the given item.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param mixed $item The item to check for.
      *
@@ -23,7 +23,7 @@ interface AccessibleCollectionInterface
     /**
      * Checks whether this collection contains an item with the given key.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param string|int $key The key to check for.
      *
@@ -34,7 +34,7 @@ interface AccessibleCollectionInterface
     /**
      * Retrieves an item with the specified key.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @param string|int $key The key of the item to retrieve.
      *

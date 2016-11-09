@@ -10,19 +10,19 @@ use OuterIterator;
  * Based on {@see \AppendIterator}. However, does not require a public {@link \AppendIterator::append() append()}
  * method, thus allowing iteration over a read-only list of iterators.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface SequenceIteratorIteratorInterface extends OuterIterator
 {
     /**
      * @see \AppendIterator::getArrayIterator()
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function getArrayIterator();
 
     /**
      * @see \AppendIterator::getIteratorIndex()
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function getIteratorIndex();
 }
