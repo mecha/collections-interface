@@ -5,7 +5,7 @@ namespace Dhii\Collection;
 /**
  * Something that can act as a searchable collection.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface SearchableCollectionInterface
 {

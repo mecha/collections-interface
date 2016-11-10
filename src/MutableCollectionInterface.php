@@ -5,7 +5,7 @@ namespace Dhii\Collection;
 /**
  * Something that can act as a collection which can have its item set altered.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface MutableCollectionInterface extends
     ItemAdditionCapableInterface,

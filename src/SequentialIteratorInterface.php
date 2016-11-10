@@ -12,14 +12,14 @@ use OuterIterator;
  *
  * Also, does not require a {@link \AppendIterator::getArrayIterator() getArrayIterator()} method.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface SequentialIteratorInterface extends OuterIterator
 {
     /**
      * Return a list of inner iterators, over the items of which this iterator iterates.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return \Traversable[]|\Traversable The list of inner iterators.
      */
@@ -27,7 +27,7 @@ interface SequentialIteratorInterface extends OuterIterator
 
     /**
      * @see \AppendIterator::getIteratorIndex()
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function getIteratorIndex();
 }
