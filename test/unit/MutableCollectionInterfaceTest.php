@@ -5,14 +5,14 @@ namespace Dhii\Collection\UnitTest;
 /**
  * Tests {@see Dhii\Collection\MutableCollectionInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 class MutableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return Dhii\Collection\MutableCollectionInterface
      */
@@ -26,7 +26,7 @@ class MutableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
     /**
      * Tests whether a correct instance of a descendant can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function testCanBeCreated()
     {
