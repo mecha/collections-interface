@@ -5,7 +5,7 @@ namespace Dhii\Collection;
 /**
  * A collection that allows the bulk of the items to be set.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface MutableCollectionInterface extends BaseCollectionInterface
 {

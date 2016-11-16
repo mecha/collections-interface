@@ -9,7 +9,7 @@ use Iterator;
  *
  * A callback iterator is something that returns items processed by a callback.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface CallbackIteratorInterface extends Iterator
 {
@@ -21,7 +21,7 @@ interface CallbackIteratorInterface extends Iterator
      *  2. The current item;
      *  3. The reference to the $isContinue pointer, which, if set to false, will cause the loop to terminate.
      *
-     * @since [*next-version*]
+     * @since 0.1.0
      *
      * @return callable The callback of this iterator.
      */
@@ -31,7 +31,7 @@ interface CallbackIteratorInterface extends Iterator
      * Return the current element after applying the callback to it.
      *
      * @see getCallback()
-     * @since [*next-version*]
+     * @since 0.1.0
      */
     public function current();
 }

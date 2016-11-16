@@ -5,7 +5,7 @@ namespace Dhii\Collection;
 /**
  * A collection, the individual items of which can be accessed.
  *
- * @since [*next-version*]
+ * @since 0.1.0
  */
 interface AccessibleCollectionInterface extends BaseCollectionInterface
 {
