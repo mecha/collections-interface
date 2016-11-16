@@ -5,7 +5,7 @@ namespace Dhii\Collection;
 /**
  * Something that can behave as a set with complete functionality.
  *
- * @since [*next-version*]
+ * @since 0.1.2
  */
 interface SetInterface extends \Countable
 {
@@ -14,7 +14,7 @@ interface SetInterface extends \Countable
      *
      * @param mixed $item An item to add.
      *
-     * @since [*next-version*]
+     * @since 0.1.2
      *
      * @return bool True if item has been added; false otherwise.
      */
@@ -25,7 +25,7 @@ interface SetInterface extends \Countable
      *
      * @param mixed[]|\Traversable $values A list of items to add.
      *
-     * @since [*next-version*]
+     * @since 0.1.2
      *
      * @return bool True if items have been added; false otherwise.
      */
@@ -36,7 +36,7 @@ interface SetInterface extends \Countable
      *
      * @param mixed $item The item to remove.
      *
-     * @since [*next-version*]
+     * @since 0.1.2
      *
      * @return bool True if item has been removed; false otherwise.
      */
@@ -45,7 +45,7 @@ interface SetInterface extends \Countable
     /**
      * Removes multiple items.
      *
-     * @since [*next-version*]
+     * @since 0.1.2
      *
      * @param mixed[]|\Traversable $items The items to remove
      */
@@ -54,7 +54,7 @@ interface SetInterface extends \Countable
     /**
      * Checks whether this instance contains an item with the given key.
      *
-     * @since [*next-version*]
+     * @since 0.1.2
      *
      * @param string|int $key The key to check for.
      *
@@ -65,7 +65,7 @@ interface SetInterface extends \Countable
     /**
      * Clears all items of this collection.
      *
-     * @since [*next-version*]
+     * @since 0.1.2
      */
     public function clear();
 
@@ -75,7 +75,7 @@ interface SetInterface extends \Countable
      * This method may return an array. However, this is not a reliable way to convert a collection
      * to an array. For that purpose, use {@see iterator_to_array()}.
      *
-     * @since [*next-version*]
+     * @since 0.1.2
      *
      * @return mixed[]|\Traversable The list of items, by original key.
      */
