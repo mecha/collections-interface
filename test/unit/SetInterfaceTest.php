@@ -5,14 +5,14 @@ namespace Dhii\Collection\UnitTest;
 /**
  * Tests {@see Dhii\Collection\SetInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1.1
  */
 class SetInterfaceTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1.1
      *
      * @return \Dhii\Collection\SetInterface
      */
@@ -27,7 +27,7 @@ class SetInterfaceTest extends \PHPUnit_Framework_TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1.1
      */
     public function testCanBeCreated()
     {
