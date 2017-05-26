@@ -32,7 +32,6 @@ class SetInterfaceTest extends \PHPUnit_Framework_TestCase
     {
         $subject = $this->createInstance();
 
-        $this->assertInstanceOf('Dhii\\Collection\\RemovalCapableCollectionInterface', $subject, 'Subject does not implement required interface');
         $this->assertInstanceOf('Dhii\\Collection\\WritableSetInterface', $subject, 'Subject does not implement required interface');
         $this->assertInstanceOf('Dhii\\Collection\\ReadableSetInterface', $subject, 'Subject does not implement required interface');
     }

@@ -34,8 +34,5 @@ class MutableCollectionInterfaceTest extends \PHPUnit_Framework_TestCase
 
         $this->assertInstanceOf('Dhii\\Collection\\MutableCollectionInterface', $subject, 'Could not create an implementing instance');
         $this->assertInstanceOf('Dhii\\Collection\\BaseCollectionInterface', $subject, 'Subject is not a valid collection');
-        $this->assertInstanceOf('Dhii\\Collection\\WritableCollectionInterface', $subject, 'Subject does not extend required interface');
-        $this->assertInstanceOf('Dhii\\Collection\\RemovalCapableCollectionInterface', $subject, 'Subject does not extend required interface');
-        $this->assertInstanceOf('Dhii\\Collection\\ClearableCollectionInterface', $subject, 'Subject does not extend required interface');
     }
 }
