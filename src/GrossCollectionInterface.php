@@ -19,5 +19,5 @@ interface GrossCollectionInterface extends BaseCollectionInterface
      *
      * @return mixed[]|\Traversable The list of items, by original key.
      */
-    public function items();
+    public function getItems();
 }
