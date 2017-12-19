@@ -28,5 +28,10 @@
             "Dhii\\Collection\\UnitTest\\": "test/unit",
             "Dhii\\Collection\\FuncTest\\": "test/functional"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.2.x-dev"
+        }
     }
 }
