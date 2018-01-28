@@ -6,12 +6,12 @@
 [![Latest Stable Version](https://poser.pugx.org/dhii/collections-interface/version)](https://packagist.org/packages/dhii/collections-interface)
 [![This package complies with Dhii standards](https://img.shields.io/badge/Dhii-Compliant-green.svg?style=flat-square)][Dhii]
 
-A highly [ISP][ISP]-compliant collection of interfaces that represent collections
+A highly [ISP][ISP]-compliant collection of interfaces that represent collections.
 
 ## Interfaces
 - [`CountableListInterface`][CountableListInterface]: A list that can be iterated and counted.
 - [`SetInterface`][SetInterface]: A list that can be iterated and checked for a key.
-- [`CountableSetInterface`][HasCapableCountableListInterface]: A set that can be counted.
+- [`CountableSetInterface`][CountableSetInterface]: A set that can be counted.
 - [`MapInterface`][MapInterface]: An readable set.
 - [`CountableMapInterface`][CountableMapInterface]: An readable countable set.
 
