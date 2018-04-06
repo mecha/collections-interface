@@ -118,7 +118,7 @@ class CountableMapInterfaceTest extends TestCase
             'A valid instance of the test subject could not be created.'
         );
         $this->assertInstanceOf(
-            'Dhii\Collection\CountableSetInterface',
+            'Dhii\Collection\CountableListInterface',
             $subject,
             'Test subject does not implement required interface.'
         );
