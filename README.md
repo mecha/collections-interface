@@ -18,6 +18,7 @@ A highly [ISP][ISP]-compliant collection of interfaces that represent collection
 - [`CountableSetInterface`][CountableSetInterface]: A set that can be counted.
 - [`MapInterface`][MapInterface]: An iterable container.
 - [`CountableMapInterface`][CountableMapInterface]: A countable map.
+- [`SetCapableMapInterface`][SetCapableMapInterface]: A map that can have a value set for a key.
 
 [Dhii]: https://github.com/Dhii/dhii
 [ISP]: https://en.wikipedia.org/wiki/Interface_segregation_principle
@@ -31,3 +32,4 @@ A highly [ISP][ISP]-compliant collection of interfaces that represent collection
 [HasItemCapableInterface]:                          src/HasItemCapableInterface.php
 [AddCapableSetInterface]:                           src/AddCapableSetInterface.php
 [SetCapableInterface]:                              src/SetCapableInterface.php
+[SetCapableMapInterface]:                           src/SetCapableMapInterface.php
