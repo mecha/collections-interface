@@ -2,7 +2,7 @@
 
 namespace Dhii\Collection\UnitTest;
 
-use Dhii\Collection\MapCapableInterface as TestSubject;
+use Dhii\Collection\SetCapableInterface as TestSubject;
 use Xpmock\TestCase;
 use Exception as RootException;
 use PHPUnit_Framework_MockObject_MockObject as MockObject;
@@ -12,14 +12,14 @@ use PHPUnit_Framework_MockObject_MockObject as MockObject;
  *
  * @since [*next-version*]
  */
-class MapCapableInterfaceTest extends TestCase
+class SetCapableInterfaceTest extends TestCase
 {
     /**
      * The class name of the test subject.
      *
      * @since [*next-version*]
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\Collection\MapCapableInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\Collection\SetCapableInterface';
 
     /**
      * Creates a new instance of the test subject.

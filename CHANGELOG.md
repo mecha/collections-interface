@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - `HasItemCapableInterface`.
 - `AddCapableInterface`.
 - `AddCapableSetInterface`.
-- `MapCapableInterface`.
+- `SetCapableInterface`.
 
 ## [0.2-alpha1] - 2018-04-06
 Initial version.
