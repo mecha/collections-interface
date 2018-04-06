@@ -28,7 +28,7 @@ class CountableMapInterfaceTest extends TestCase
      *
      * @param array $methods The methods to mock.
      *
-     * @return TestSubject The new instance.
+     * @return TestSubject|MockObject The new instance.
      */
     public function createInstance($methods = array())
     {
@@ -92,7 +92,7 @@ class CountableMapInterfaceTest extends TestCase
      *
      * @param string $message The exception message.
      *
-     * @return RootException The new exception.
+     * @return RootException|MockObject The new exception.
      */
     public function createException($message = '')
     {
@@ -118,7 +118,7 @@ class CountableMapInterfaceTest extends TestCase
             'A valid instance of the test subject could not be created.'
         );
         $this->assertInstanceOf(
-            'Dhii\Collection\CountableSetInterface',
+            'Dhii\Collection\CountableListInterface',
             $subject,
             'Test subject does not implement required interface.'
         );

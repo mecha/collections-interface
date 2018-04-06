@@ -10,10 +10,15 @@ A highly [ISP][ISP]-compliant collection of interfaces that represent collection
 
 ## Interfaces
 - [`CountableListInterface`][CountableListInterface]: A list that can be iterated and counted.
-- [`SetInterface`][SetInterface]: A list that can be iterated and checked for a key.
+- [`HasItemCapableInterface`][HasItemCapableInterface]: Something that can be checked for the existence of an item.
+- [`AddCapableInterface`][AddCapableInterface]: Something that can have an item added.
+- [`SetCapableInterface`][MapCapableInterface]: Something that can set a value for a key.
+- [`SetInterface`][SetInterface]: A list that can be checked for a value.
+- [`AddCapableSetInterface`][AddCapableSetInterface]: A set that can have an item added.
 - [`CountableSetInterface`][CountableSetInterface]: A set that can be counted.
-- [`MapInterface`][MapInterface]: An readable set.
-- [`CountableMapInterface`][CountableMapInterface]: An readable countable set.
+- [`MapInterface`][MapInterface]: An iterable container.
+- [`CountableMapInterface`][CountableMapInterface]: A countable map.
+- [`SetCapableMapInterface`][SetCapableMapInterface]: A map that can have a value set for a key.
 
 [Dhii]: https://github.com/Dhii/dhii
 [ISP]: https://en.wikipedia.org/wiki/Interface_segregation_principle
@@ -23,3 +28,8 @@ A highly [ISP][ISP]-compliant collection of interfaces that represent collection
 [CountableSetInterface]:                            src/CountableSetInterface.php
 [MapInterface]:                                     src/MapInterface.php
 [CountableMapInterface]:                            src/CountableMapInterface.php
+[AddCapableInterface]:                              src/AddCapableInterface.php
+[HasItemCapableInterface]:                          src/HasItemCapableInterface.php
+[AddCapableSetInterface]:                           src/AddCapableSetInterface.php
+[SetCapableInterface]:                              src/SetCapableInterface.php
+[SetCapableMapInterface]:                           src/SetCapableMapInterface.php
