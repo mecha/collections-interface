@@ -1,6 +1,6 @@
 # Dhii - Collections Interface
 
-[![Build Status](https://travis-ci.org/dhii/collections-interface.svg?branch=master)](https://travis-ci.org/dhii/collections-interface)
+[![Build Status](https://travis-ci.org/Dhii/collections-interface.svg?branch=master)](https://travis-ci.org/Dhii/collections-interface)
 [![Code Climate](https://codeclimate.com/github/Dhii/collections-interface/badges/gpa.svg)](https://codeclimate.com/github/Dhii/collections-interface)
 [![Test Coverage](https://codeclimate.com/github/Dhii/collections-interface/badges/coverage.svg)](https://codeclimate.com/github/Dhii/collections-interface/coverage)
 [![Latest Stable Version](https://poser.pugx.org/dhii/collections-interface/version)](https://packagist.org/packages/dhii/collections-interface)
