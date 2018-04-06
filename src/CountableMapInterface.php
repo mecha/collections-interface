@@ -9,7 +9,7 @@ namespace Dhii\Collection;
  */
 interface CountableMapInterface extends
     /* @since [*next-version*] */
-    CountableSetInterface,
+    CountableListInterface,
     /* @since [*next-version*] */
     MapInterface
 {
