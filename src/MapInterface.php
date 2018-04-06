@@ -3,15 +3,16 @@
 namespace Dhii\Collection;
 
 use Psr\Container\ContainerInterface;
+use Traversable;
 
 /**
- * A readable set.
+ * A traversable container.
  *
  * @since [*next-version*]
  */
 interface MapInterface extends
     /* @since [*next-version*] */
-    SetInterface,
+    Traversable,
     /* @since [*next-version*] */
     ContainerInterface
 {
