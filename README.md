@@ -10,8 +10,12 @@ A highly [ISP][ISP]-compliant collection of interfaces that represent collection
 
 ## Interfaces
 - [`CountableListInterface`][CountableListInterface]: A list that can be iterated and counted.
-- [`SetInterface`][SetInterface]: A list that can be iterated and checked for a value.
+- [`HasItemCapableInterface`][HasItemCapableInterface]: Something that can be checked for the existence of an item.
+- [`AddCapableInterface`][AddCapableInterface]: Something that can have an item added.
+- [`SetInterface`][SetInterface]: A list that can be checked for a value.
+- [`AddCapableSetInterface`][AddCapableSetInterface]: A set that can have an item added.
 - [`CountableSetInterface`][CountableSetInterface]: A set that can be counted.
+- [`MapCapableInterface`][MapCapableInterface]: Something that can map an item to a key.
 - [`MapInterface`][MapInterface]: An iterable container.
 - [`CountableMapInterface`][CountableMapInterface]: A countable map.
 
@@ -23,3 +27,7 @@ A highly [ISP][ISP]-compliant collection of interfaces that represent collection
 [CountableSetInterface]:                            src/CountableSetInterface.php
 [MapInterface]:                                     src/MapInterface.php
 [CountableMapInterface]:                            src/CountableMapInterface.php
+[AddCapableInterface]:                              src/AddCapableInterface.php
+[HasItemCapableInterface]:                          src/HasItemCapableInterface.php
+[AddCapableSetInterface]:                           src/AddCapableSetInterface.php
+[MapCapableInterface]:                              src/MapCapableInterface.php
