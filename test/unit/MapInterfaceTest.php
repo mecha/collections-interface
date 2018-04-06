@@ -28,7 +28,7 @@ class MapInterfaceTest extends TestCase
      *
      * @param array $methods The methods to mock.
      *
-     * @return TestSubject The new instance.
+     * @return TestSubject|MockObject The new instance.
      */
     public function createInstance($methods = array())
     {
@@ -92,7 +92,7 @@ class MapInterfaceTest extends TestCase
      *
      * @param string $message The exception message.
      *
-     * @return RootException The new exception.
+     * @return RootException|MockObject The new exception.
      */
     public function createException($message = '')
     {
@@ -123,7 +123,7 @@ class MapInterfaceTest extends TestCase
             'Test subject does not implement required interface.'
         );
         $this->assertInstanceOf(
-            'Dhii\Collection\SetInterface',
+            'Traversable',
             $subject,
             'Test subject does not implement required interface.'
         );
