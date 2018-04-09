@@ -16,7 +16,9 @@ interface AddCapableInterface
      *
      * @since [*next-version*]
      *
+     * @param mixed $item The item to add.
+     *
      * @throws RuntimeException If the item could not be added.
      */
-    public function add();
+    public function add($item);
 }

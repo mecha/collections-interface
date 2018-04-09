@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [[*next-version*]] - YYYY-MM-DD
+### Fixed
+- Problem #15, where `AddCapableInterface#$add()` didn't accept the item.
 
 ## [0.2-alpha3] - 2018-04-06
 ### Changed
