@@ -12,7 +12,7 @@ A highly [ISP][ISP]-compliant collection of interfaces that represent collection
 - [`CountableListInterface`][CountableListInterface]: A list that can be iterated and counted.
 - [`HasItemCapableInterface`][HasItemCapableInterface]: Something that can be checked for the existence of an item.
 - [`AddCapableInterface`][AddCapableInterface]: Something that can have an item added.
-- [`SetCapableInterface`][MapCapableInterface]: Something that can set a value for a key.
+- [`SetCapableInterface`][SetCapableInterface]: Something that can set a value for a key.
 - [`SetInterface`][SetInterface]: A list that can be checked for a value.
 - [`AddCapableSetInterface`][AddCapableSetInterface]: A set that can have an item added.
 - [`CountableSetInterface`][CountableSetInterface]: A set that can be counted.
